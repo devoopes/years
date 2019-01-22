@@ -12,9 +12,13 @@ CREATE TABLE music2017
   artist character varying(100),
   track character varying(200)
 );
+
 ```
 
+```
+-- Show data inported in table.
 select * from music2018;
+```
 
 ```
 -- Import CSV Data into Table
