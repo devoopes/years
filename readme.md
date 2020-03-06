@@ -35,3 +35,8 @@ SELECT band,COUNT(track) FROM(
 ) allmusic
 GROUP BY band ORDER BY COUNT(track) DESC;
 ```
+
+### Reminders
+Copy and paste from Evernote
+Run replace ` - ` to `,`
+Run regex and quote all lines with track titles with commas `.*,.*,.*`
