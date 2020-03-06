@@ -18,7 +18,7 @@ COPY music2018(artist,track) FROM '$fullpath/years/music/2018.csv' DELIMITER ','
 
 DO increace_years
 BEGIN
-   FOR counter IN 2012..2018 LOOP
+   FOR counter IN 2010..2018 LOOP
  -- RAISE NOTICE 'Counter: %', counter;
  -- http://www.postgresqltutorial.com/plpgsql-loop-statements/
  COPY music'counter'(artist,track) FROM '$fullpath/years/music/','counter','.csv' DELIMITER ',' CSV HEADER
