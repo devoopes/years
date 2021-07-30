@@ -1,0 +1,28 @@
+.DS_Store
+*.txt
+*.mp3
+*.m4a
+*.zip
+*.part
+*.webm
+20*/
+
+
+#Remove words
+      # (Audio)
+      # (Official Video)
+      # (Official Lyric Video)
+      # (Official Audio)
+      # (official video)
+      # (Lyrics)
+      # (Video)
+      # (REMASTERED)
+      # (Full Album Stream)
+      # Official Music Video
+      # Official Video
+      # Official Audio
+      # [Official Audio]
+      # [Lyric Video]
+      # [Directed by *]
+      #  - Topic
+      # .wmv
