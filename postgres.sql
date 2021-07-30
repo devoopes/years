@@ -14,6 +14,8 @@ COPY music2015(artist,track) FROM '$fullpath/years/music/2015.csv' DELIMITER ','
 COPY music2016(artist,track) FROM '$fullpath/years/music/2016.csv' DELIMITER ',' CSV HEADER;
 COPY music2017(artist,track) FROM '$fullpath/years/music/2017.csv' DELIMITER ',' CSV HEADER;
 COPY music2018(artist,track) FROM '$fullpath/years/music/2018.csv' DELIMITER ',' CSV HEADER;
+COPY music2019(artist,track) FROM '$fullpath/years/music/2019.csv' DELIMITER ',' CSV HEADER;
+COPY music2020(artist,track) FROM '$fullpath/years/music/2020.csv' DELIMITER ',' CSV HEADER;
 
 
 DO increace_years
